@@ -1,0 +1,25 @@
+{
+  "name": "node_kafka",
+  "version": "1.0.0",
+  "description": "Implementação de integração entre uma aplicação Node TS com Kafka.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/kafkajs": "^1.9.0",
+    "@types/node": "^20.14.12",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
